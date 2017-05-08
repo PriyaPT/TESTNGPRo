@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Application Lauched successfully]]>
+    </line>
+    <line>
+      <![CDATA[Login Sucessfull]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="19610" started-at="2017-05-08T10:24:54Z" finished-at="2017-05-08T10:25:14Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="19610" started-at="2017-05-08T10:24:54Z" finished-at="2017-05-08T10:25:14Z">
+      <class name="com.toolsQA.testNG.pack.ReporterLogs">
+        <test-method status="PASS" signature="launch()[pri:0, instance:com.toolsQA.testNG.pack.ReporterLogs@100fc185]" name="launch" is-config="true" duration-ms="16164" started-at="2017-05-08T15:54:54Z" finished-at="2017-05-08T15:55:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Lauched successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="actualTest()[pri:0, instance:com.toolsQA.testNG.pack.ReporterLogs@100fc185]" name="actualTest" duration-ms="2636" started-at="2017-05-08T15:55:10Z" finished-at="2017-05-08T15:55:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Sucessfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- actualTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.toolsQA.testNG.pack.ReporterLogs@100fc185]" name="tearDown" is-config="true" duration-ms="795" started-at="2017-05-08T15:55:13Z" finished-at="2017-05-08T15:55:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.toolsQA.testNG.pack.ReporterLogs -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
